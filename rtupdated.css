@@ -1260,3 +1260,11 @@ input {
 .copy .border {
 	display: none;
 }
+#players-lobby {
+    margin-left: 0%;
+    margin-top: 0%;
+
+}
+.hit {
+  content: url(https://media.discordapp.net/attachments/856315166126506026/958443094506864750/406-4067418_image-hitmarker-png-battle-call-of-duty-png_ccexpress.png?width=719&height=438);
+}
