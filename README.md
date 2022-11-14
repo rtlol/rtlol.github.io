@@ -2,7 +2,9 @@
 
 # Updated Default Hitmarker
 
-# Moved Character Is Main Menu
+# Removed Moved Character In Main Menu
+
+# Updated Background
 
 
 
@@ -10,4 +12,4 @@
 
 
 -----
-USE (https://rtlol.github.io/rt.css)
+USE ()
