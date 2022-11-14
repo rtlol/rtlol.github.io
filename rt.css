@@ -89,12 +89,12 @@
 }
 
 .interface .background{
-    background: url(https://wallpaper.dog/large/20524121.jpg) repeat !important;
+    background: url(https://c4.wallpaperflare.com/wallpaper/658/800/994/simple-simple-background-minimalism-black-background-wallpaper-preview.jpg) repeat !important;
     background-size: cover !important;
 }
 
 .end-modal {
-    background:url(https://wallpaper.dog/large/20524121.jpg) repeat !important;
+    background:url(https://c4.wallpaperflare.com/wallpaper/658/800/994/simple-simple-background-minimalism-black-background-wallpaper-preview.jpg) repeat !important;
     background-size: cover !important;
 }
 
@@ -1258,12 +1258,7 @@ input {
 }
 
 .copy .border {
-	display: none;
-}
-#players-lobby {
-    margin-left: 11%;
-    margin-top:55%;
-
+	display: none
 }
 .hit {
   content: url(https://media.discordapp.net/attachments/856315166126506026/958443094506864750/406-4067418_image-hitmarker-png-battle-call-of-duty-png_ccexpress.png?width=719&height=438);
