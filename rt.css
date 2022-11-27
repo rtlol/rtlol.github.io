@@ -1187,83 +1187,76 @@
     animation: glow 2s ease-in-out infinite alternate;
 }
 
-/* Reward Container */
-.progress,
-.lvl,
-.progress-helper {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))) !important;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)) !important;
-}
+   /* Reward Container */
+    .progress[data-v-f1059abc],
+    .lvl[data-v-f1059abc],
+    .progress-helper {
+        background: -webkit-gradient(linear, left top, right top, from(#84a1ff), to(#39ffd4)) !important;
+        background: linear-gradient(to right, #84a1ff, #39ffd4) !important;
+    }
 
-.buy-btn {
-	display: none !important;
-}
+    .buy-btn[data-v-f1059abc] {
+        display: none !important;
+    }
 
-.level-head {
-    display: none !important;
-    color: #fff;
-}
+    .level-head {
+        display: none !important;
+    }
 
-.decor-bg {
-	display: none;
-}
+    .decor-bg {
+        display: none;
+    }
 
-/* Inputs */
-.private-btn > span {
-	content: url(https://media.discordapp.net/attachments/523517791886770188/953239076457316382/openlock.png);
-	position: fixed;
-	left: 25px;
-	width: 40px;
-}
+    /* Inputs */
+    .private-btn > span[data-v-47e1b746] {
+        content: url(https://media.discordapp.net/attachments/523517791886770188/1014943556806394018/261370-200.png);
+        position: fixed;
+        left: 25px;
+        width: 40px;
+    }
 
-.private-btn > input:checked + span {
+    /*.private-btn > input:checked + span[data-v-47e1b746] {
     content: url(https://media.discordapp.net/attachments/523517791886770188/953239093955948544/lock.png);
-}
+}*/
+    .custom-checkbox > span[data-v-47e1b746]:before {
+        border-radius: 50px;
+        background-color: white;
+        border: none;
+    }
 
-.custom-checkbox > span:before {
-    border-radius: 50px;
-    background-color: white;
-    border: none;
-}
+    .custom-checkbox > input:checked + span[data-v-47e1b746]:before {
+        background-color: #2ac144;
+    }
 
-.custom-checkbox > input:checked + span:before {
-    background-color: rgb(9, 148, 148);
-}
+    input {
+        background: white !important;
+        color: black !important;
+        border-radius: 10px !important;
+    }
 
-input {
-    background: white !important;
-    color: black !important;
-    border-radius: 10px !important;
-}
+    .selected {
+        background: #292e39;
+    }
 
-.selected {
-    background: black;
-}
+    .items {
+        background: #292e39 !important;
+        box-shadow: none !important;
+    }
 
-.items {
-    background: #292e39 !important;
-    box-shadow: none !important;
-}
+    .settings .input {
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+        color: white !important;
+    }
 
-.settings .input {
-    background: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-    color: white !important;
-}
+    .copy button {
+        background: rgba(55, 55, 55, .61) !important;
+        box-shadow: none !important;
+    }
 
-.copy button {
-	background: black !important;
-	box-shadow: none !important;
-}
-
-.copy .border {
-	display: none;
-}
-#players-lobby {
-    margin-left: 0%;
-    margin-top: 0%;
-
+  .copy .border {
+      display: none;
 }
 .hit {
   content: url(https://media.discordapp.net/attachments/856315166126506026/958443094506864750/406-4067418_image-hitmarker-png-battle-call-of-duty-png_ccexpress.png?width=719&height=438);
