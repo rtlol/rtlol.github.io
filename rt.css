@@ -85,13 +85,13 @@
     }
 
     .interface .background {
-        background: url(https://media.discordapp.net/attachments/1004593318744825896/1046392645347463188/o.jpg?width=887&height=499)!important;
+        background: url(https://media.discordapp.net/attachments/1004593318744825896/1046392645347463188/o.jpg?width=795&height=447)!important;
         height: 300%;
         background-position: 0px 0px;
     }
 
     .end-modal {
-        background: url(https://media.discordapp.net/attachments/1004593318744825896/1046392645347463188/o.jpg?width=887&height=499) repeat !important;
+        background: url(https://media.discordapp.net/attachments/1004593318744825896/1046392645347463188/o.jpg?width=795&height=447) repeat !important;
     }
 
     /* Loading Scene*/
