@@ -1,4 +1,4 @@
-/*	CSS made by syv / osu#1799
+/*	CSS made by syv / mrt#8924
     recomended Resolution: 1920x1080
     CSS origin: Nizzq#9235 */
 @font-face {
@@ -1230,7 +1230,7 @@
 
     input {
         background: white !important;
-        color: #E98CC7 !important;
+        color: #000 !important;
         border-radius: 10px !important;
     }
 
