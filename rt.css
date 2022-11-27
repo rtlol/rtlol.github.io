@@ -44,22 +44,22 @@
 
 @keyframes rainbow{
 		100%,0%{
-			color: #000;
+			color: #E98CC7;
 		}
 		8%{
-			color: #000000fa;
+			color: #E98CC7;
 		}
 		16%{
-			color: #000;
+			color: #E98CC7;
 		}
 		25%{
-			color: #000;
+			color: #E98CC7;
 		}
 		33%{
-			color: #000;
+			color: #E98CC7;
 		}
 		41%{
-			color: #000;
+			color: #E98CC7;
 		}
 		50%{
 			color: #fff;
@@ -89,12 +89,12 @@
 }
 
 .interface .background{
-    background: url(https://wallpaper.dog/large/20524121.jpg) repeat !important;
+    background: url(https://images-ext-1.discordapp.net/external/tlfmXBNcDtXAC8cOPFVKREqZoh1oDW9L09wUYty44r4/https/images4.alphacoders.com/118/1183344.png?width=795&height=447) repeat !important;
     background-size: cover !important;
 }
 
 .end-modal {
-    background:url(https://wallpaper.dog/large/20524121.jpg) repeat !important;
+    background:url(https://images-ext-1.discordapp.net/external/tlfmXBNcDtXAC8cOPFVKREqZoh1oDW9L09wUYty44r4/https/images4.alphacoders.com/118/1183344.png?width=795&height=447) repeat !important;
     background-size: cover !important;
 }
 
@@ -636,7 +636,7 @@
     height: 517px !important;
     border: 1px solid #ffffff !important;
     border-radius: 5px !important;
-    background: #000 !important;
+    background: #E98CC700 !important;
     overflow: visible;
 	z-index: 999 !important;
     margin-right: 150%;
@@ -658,7 +658,7 @@
 }
 
 .container button {
-    background: #000 !important;
+    background: #0000 !important;
     border-radius: 0 !important;
     transform: none !important;
 }
@@ -680,7 +680,7 @@
 
 .settings .header,
 .vm--container .cont .head {
-	color: #000 !important;
+	color: #E98CC7 !important;
 }
 
 .settings .label {
@@ -747,12 +747,12 @@
 }
 
 .profile .progress-line {
-    background: #000000fa;
+    background: #E98CC7;
 }
 
 .profile .progress-level-value,
 .stat-name {
-    color: #000 !important;
+    color: #E98CC7 !important;
 }
 
 .profile .progress {
@@ -838,7 +838,7 @@
 }
 
 #play-btn:hover {
-    background: #000 !important;
+    background: #E98CC7 !important;
 }
 
 #play-btn .border-top,
@@ -889,7 +889,7 @@
 }
 
 .my-clan .card-cont .name {
-	color: #000;
+	color: #FFF;
 	-webkit-animation: glow 2s ease-in-out infinite alternate;
     -moz-animation: glow 2s ease-in-out infinite alternate;
     animation: glow 2s ease-in-out infinite alternate;
@@ -983,7 +983,7 @@
 }
 
 .hp-progress {
-    background: #000 !important;
+    background: #E98CC7 !important;
     border: 5px solid #fff;
 }
 
@@ -1099,7 +1099,7 @@
 }
 
 .kill-bar-item .name {
-	color: #000;
+	color: #E98CC7;
 }
 
 .kill-bar-item .name-kill {
@@ -1119,7 +1119,7 @@
 }
 
 .chat .name {
-    color: #000;
+    color: #F61BA6;
 }
 
 .message{
@@ -1127,7 +1127,7 @@
 }
 
 .message .lvl {
-    color: #000;
+    color: #FF0;
 }
 
 /* End Screen */
@@ -1230,7 +1230,7 @@
 
     input {
         background: white !important;
-        color: black !important;
+        color: #E98CC7 !important;
         border-radius: 10px !important;
     }
 
