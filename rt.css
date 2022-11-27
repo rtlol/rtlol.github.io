@@ -907,140 +907,212 @@
 	color: #fff;
 }
 
-/* Market */
-.bottom-subj .count {
-    background: transparent;
-}
+ /* Market */
+    .bottom-subj .count {
+        background: transparent;
+    }
 
-/* Esc Interface*/
-.esc-interface {
-    backdrop-filter: blur(5px);
-}
+    /* Esc Interface*/
+    .esc-interface {
+        backdrop-filter: blur(5px);
+    }
 
-.esc-interface .head-right button,
-.esc-interface .head-right button .border-top,
-.esc-interface .head-right button .border-bottom {
-    background: #101216 !important;
-    box-shadow: none;
-    border-radius: 0;
-}
+    .esc-interface .head-right button,
+    .esc-interface .head-right button .border-top,
+    .esc-interface .head-right button .border-bottom {
+        background: #101216 !important;
+        box-shadow: none;
+        border-radius: 0;
+    }
 
-.esc-interface .head-right button:hover {
-    background: #101216 !important;
-    border-bottom: 5px solid #fff;
-}
+    .esc-interface .head-right button:hover {
+        background: #101216 !important;
+        border-bottom: 5px solid white;
+    }
 
-.esc-interface .left-container .player {
-    background: transparent;
-    background-image: linear-gradient(to left, #39ffd408, #39ffd440) !important;
-}
+    .esc-interface .left-container .player {
+        background: transparent;
+        background-image: linear-gradient(to left, #39ffd408, #39ffd440) !important;
+    }
 
-.esc-interface .right-container {
-    background: transparent !important;
-}
+    .esc-interface .right-container {
+        background: transparent !important;
+    }
 
-.esc-interface .player .label {
-    -webkit-animation: glow 2s ease-in-out infinite alternate;
-    -moz-animation: glow 2s ease-in-out infinite alternate;
-    animation: glow 2s ease-in-out infinite alternate;
-}
+    .esc-interface .player .label {
+        -webkit-animation: glow 2s ease-in-out infinite alternate;
+        -moz-animation: glow 2s ease-in-out infinite alternate;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
 
-.esc-interface .primary {
-	color: #fff !important;
-}
+    .esc-interface .primary {
+        color: #39ffd4 !important;
+    }
 
-.esc-interface .level{
-	color: #fff;
-}
+    .esc-interface .level {
+        color: white;
+    }
 
-.continue {
-	background: rgb(68, 68, 68) !important;
-	box-shadow: none !important;
-}
+    .continue {
+        background: rgb(68, 68, 68) !important;
+        box-shadow: none !important;
+    }
 
-.continue .border-top,
-.continue .border-bottom {
-	background: transparent !important;
-	box-shadow: none !important;
-}
+    .continue .border-top,
+    .continue .border-bottom {
+        background: transparent !important;
+        box-shadow: none !important;
+    }
 
-/* HUD */
-.mini-map-cont .name,
-.desktop-game-interface .info-key-cont,
-.list-weapons,
-.hp-title,
-.mWwn,
-.instruction {
-    display: none !important;
-}
+    /* HUD */
+    .mini-map-cont .name,
+    .desktop-game-interface .info-key-cont,
+    .list-weapons,
+    .hp-title,
+    .mWwn,
+    .instruction {
+        display: none !important;
+    }
 
-.cont-hp {
-    background: transparent !important;
-}
+    .cont-hp {
+        background: transparent !important;
+    }
 
-.hp {
-    margin-right: 20%;
-}
+    .hp {
+        margin-right: 20%;
+    }
 
-.hp-progress {
-    background: #000 !important;
-    border: 5px solid #fff;
-}
+    .hp-progress {
+        background: #8bff9f !important;
+    }
 
-.desktop-game-interface .state {
-    position: fixed;
-    width: 500px !important;
-    top: 93%;
-    left: 37% !important;
-}
+    .desktop-game-interface .state {
+        position: fixed;
+        width: 500px !important;
+        top: 93%;
+        left: 37% !important;
+    }
 
-.cont-endurance {
-    margin-left: 1.5%;
-    background: transparent !important;
-    border: #1e1e1e;
-}
+    .cont-endurance {
+        margin-left: 1.5%;
+        background: transparent !important;
+    }
 
-.endurance-progress {
-	background: -webkit-gradient(linear, left top, right top, from(#fff), to(black)) !important;
-    background: linear-gradient(to right, #fff, black) !important;
-    border: 2px solid black;
-}
+    .endurance-progress {
+        background: -webkit-gradient(linear, left top, right top, from(#84a1ff), to(#39ffd4)) !important;
+        background: linear-gradient(to right, #84a1ff, #39ffd4) !important;
+    }
 
-.weapons-cont {
-    position: fixed;
-    width: 300px;
-    top: 95%;
-    left: 5%;
-    margin-top: -100px;
-    margin-left: 252px ;
-}
+    .weapons-cont {
+        position: fixed;
+        width: 100px;
+        top: 101%;
+        left: 5%;
+        margin-top: -100px;
+        margin-left: 252px;
+    }
 
-.ammunition {
-    display: inline-block;
-    position: fixed;
-    color: #fff;
-    left: calc(38% + 188px);
-  }
+    .ammunition {
+        display: inline-block;
+        position: fixed;
+        left: calc(53% + 180px);
+    }
 
-.kill-death {
-    margin-top: 60px;
-    margin-left: 2px;
-}
+    .kill-death {
+        margin-top: 60px;
+        margin-left: 2px;
+    }
 
-.kill-death .kill,
-.kill-death .death {
-    background: transparent;
-    box-shadow: none;
-}
+    .kill-death .kill,
+    .kill-death .death {
+        background: transparent;
+        box-shadow: none;
+    }
 
-.state-cont .timer {
-    position: fixed;
-    top: 18px;
-    background: transparent !important;
-    box-shadow: none !important;
-    font-size: 50px;
-}
+    .state-cont .timer {
+        position: fixed;
+        top: 18px;
+        background: transparent !important;
+        box-shadow: none !important;
+        font-size: 50px;
+    }
 
+    /* In Game Leaderboard */
+    .tab-info {
+        background: rgba(55, 55, 55, .61) !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+        border: 5px solid #ffffff1c;
+    }
+
+    .tab-info .head {
+        display: none;
+    }
+
+    .tab-info .player {
+        background: transparent !important;
+    }
+
+    .tab-info .primary {
+        color: white !important;
+    }
+
+    .tab-info .nickname,
+    .tab-info .player-right {
+        color: #87898c;
+    }
+
+    .tab-info .list {
+        color: white;
+        margin: 0 !important;
+    }
+
+    .tab-info .list .list-value:nth-child(1),
+    .tab-info .list .list-value:nth-child(2),
+    .tab-info .list .list-value:nth-child(3) {
+        visibility: hidden;
+    }
+
+    .tab-info .list .list-value:nth-child(1):after {
+        visibility: visible;
+        content: "K";
+        margin-left: -29px;
+    }
+
+    .tab-info .list .list-value:nth-child(2):after {
+        visibility: visible;
+        content: "D";
+        margin-left: -28px;
+    }
+
+    .tab-info .list .list-value:nth-child(3):after {
+        visibility: visible;
+        content: "S";
+        margin-left: -5px;
+    }
+
+    .tab-info .player-right svg {
+        display: none;
+    }
+
+    .achive-cont {
+        content: url(https://media.discordapp.net/attachments/523517791886770188/956029712470253598/PikPng.com_roblox-head-png_965768.png?width=160&height=160) !important;
+        position: fixed;
+        right: 45%;
+    }
+
+    .kill-bar-item {
+        background: rgba(55, 55, 55, .61) !important;
+        border: 3px solid red;
+    }
+
+    .kill-bar-item .name {
+        color: #8badd6;
+    }
+
+    .kill-bar-item .name-kill {
+        color: #f1c876;
+    }
 /* In Game Leaderboard */
 .tab-info {
     background: rgba(55, 55, 55, .61) !important;
